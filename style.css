@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-image: url(https://imgs.search.brave.com/as0T0makOOcCM--DN5jQQuigoZdP9-IKGeMhEui8x8g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTc5/MzIxMjY5L3Bob3Rv/L3VuaXZlcnNlLW9m/LW51bWJlcnMuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPTRG/NndNMzVITHdQT1BO/ai1rUVhBRkFNWVZM/djk3VzUtZjdTUVJu/SXAxMEE9);
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    line-height: 1.5;
+    color: orangered;
+}
+body{
+    text-align: center;
+}
+.logo{
+    font-size: 100px;
+    font-weight: 700;
+}
+.button{
+    width: 140px;
+    height:60px;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+
+}
+.button:hover{
+    background-color: blue;
+    color: white;
+}
+input{
+    width: 140px;
+    height: 60px;
+    text-align: center;
+    font-size: 1.3em;
+}
+#input_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#message{
+    display: none;
+    font-size: 1.5em;
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+}
